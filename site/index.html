@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Russian Fuel Crisis 2026</title>
+<link rel="preconnect" href="https://cdn.jsdelivr.net">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns@3.0.0/dist/chartjs-adapter-date-fns.bundle.min.js"></script>
+<link rel="stylesheet" href="style.css">
+<link rel="icon" href="favicon.png" type="image/png">
+</head>
+<body>
+<div class="scanline"></div>
+
+<header class="masthead">
+  <div class="masthead-row">
+    <div class="ident">
+      <span class="ident-tag" data-i18n="tag"></span>
+      <h1 data-i18n="title"></h1>
+    </div>
+    <button class="lang-toggle ru" id="langToggle" aria-label="Language">
+      <span class="ghost left" id="ghostL"></span>
+      <span class="ghost right" id="ghostR"></span>
+      <span class="knob" id="knob"></span>
+    </button>
+  </div>
+  <p class="lead" data-i18n="lead"></p>
+</header>
+
+<section class="readout" aria-label="summary">
+  <div class="stat">
+    <span class="stat-val" id="statStrikes">—</span>
+    <span class="stat-lbl" data-i18n="statStrikes"></span>
+  </div>
+  <div class="stat">
+    <span class="stat-val" id="statFacilities">—</span>
+    <span class="stat-lbl" data-i18n="statFacilities"></span>
+  </div>
+  <div class="stat">
+    <span class="stat-val" id="statCapacity">—</span>
+    <span class="stat-lbl" data-i18n="statCapacity"></span>
+  </div>
+  <div class="stat">
+    <span class="stat-val" id="statRange">—</span>
+    <span class="stat-lbl" data-i18n="statRange"></span>
+  </div>
+</section>
+
+<main class="panel">
+  <div class="panel-head">
+    <span class="panel-title" data-i18n="panelTitle"></span>
+    <div class="presets" id="presets"></div>
+  </div>
+  <div class="chart-frame">
+    <canvas id="chart"></canvas>
+  </div>
+  <div class="legend" id="legend"></div>
+</main>
+
+<footer class="colophon">
+  <p data-i18n="footer"></p>
+  <p class="src">
+    <a href="https://en.wikipedia.org/wiki/2025%E2%80%932026_Russian_fuel_crisis" data-i18n="srcWiki"></a>
+    <span class="sep">/</span>
+    <a href="https://trends.google.com/" data-i18n="srcTrends"></a>
+    <span class="sep">/</span>
+    <a href="https://github.com/" data-i18n="srcCode"></a>
+  </p>
+</footer>
+
+<script src="app.js"></script>
+</body>
+</html>
