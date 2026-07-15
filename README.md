@@ -6,8 +6,7 @@ how often people in Russia searched for "no petrol" on Google. Bilingual
 
 **Site**: https://brawlerleg.github.io/Russian-Fuel-Crisis/
 
-<img width="1478" height="863" alt="FireShot Capture 002 - Russian Fuel Crisis 2026 -  brawlerleg github io" src="https://github.com/user-attachments/assets/e46eb19e-7a72-4609-95c2-44007ed48278" />
-
+<img width="1471" height="841" alt="Снимок экрана (700)" src="https://github.com/user-attachments/assets/6a3a8274-0953-4cf3-8744-5e107fcc2452" />
 
 ## What it shows
 
