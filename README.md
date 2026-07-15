@@ -4,7 +4,7 @@ An interactive chart overlaying drone strikes on Russian oil refineries against
 how often people in Russia searched for "no petrol" on Google. Bilingual
 (RU/EN), no build step, plain HTML/CSS/JS.
 
-**Site**: https://brawlerleg.github.io/Russian-Fuel-Crisis/
+**Site**: [https://brawlerleg.github.io/Russian-Fuel-Crisis/](https://brawlerleg.github.io/Russian-Fuel-Crisis-2026/)
 
 <img width="1471" height="841" alt="Снимок экрана (700)" src="https://github.com/user-attachments/assets/6a3a8274-0953-4cf3-8744-5e107fcc2452" />
 
